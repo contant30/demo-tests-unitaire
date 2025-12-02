@@ -10,8 +10,12 @@ public class DemoStringUtils {
 		//     dans tous les cas
 		System.out.println(StringUtils.levenshteinDistance("Chine", "Chien"));
 		System.out.println(StringUtils.levenshteinDistance("Vienne", "Sienne"));
-		
-		
-	}
+        System.out.println(StringUtils.levenshteinDistance("distance", "instance"));
+        System.out.println(StringUtils.levenshteinDistance("éé", "null"));
+
+
+
+
+    }
 
 }

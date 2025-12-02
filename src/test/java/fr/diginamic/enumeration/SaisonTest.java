@@ -8,6 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class SaisonTest {
 
+
+
+
     @Test
     // test cas normaux
     void testValueOfLibelleCasNominaux() {
